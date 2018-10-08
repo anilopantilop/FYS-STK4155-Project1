@@ -1,6 +1,6 @@
-from Analysis import MeanSquaredError, FrankeFunction, R2
-from Lasso import Lasso
-from bootstrap import bootstrap
+from Analysis.Analysis import MeanSquaredError, FrankeFunction, R2
+from RegressionMethods.Lasso import Lasso
+from Analysis.bootstrap import bootstrap
 from sklearn.preprocessing import PolynomialFeatures
 import numpy as np
 import matplotlib.pyplot as plt

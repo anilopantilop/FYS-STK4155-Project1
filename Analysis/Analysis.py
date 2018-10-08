@@ -2,7 +2,7 @@
 Functions to use in analysis of a regression method
 """
 
-from RidgeRegression import RidgeRegression
+from RegressionMethods.RidgeRegression import RidgeRegression
 import numpy as np
 from sklearn.preprocessing import PolynomialFeatures
 import matplotlib.pyplot as plt

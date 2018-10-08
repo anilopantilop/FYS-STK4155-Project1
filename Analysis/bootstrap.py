@@ -1,10 +1,10 @@
 import numpy as np
 from sklearn.utils import resample
 from sklearn.preprocessing import PolynomialFeatures
-from RidgeRegression import RidgeRegression
-from Lasso import Lasso
-from OrdinaryLeastSquares import ols
-from Analysis import R2
+from RegressionMethods.RidgeRegression import RidgeRegression
+from RegressionMethods.Lasso import Lasso
+from RegressionMethods.OrdinaryLeastSquares import ols
+from Analysis.Analysis import R2
 import matplotlib.pyplot as plt
 
 def bootstrap(x, y, z, p_degree, method, n_bootstrap=100):
